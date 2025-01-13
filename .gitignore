@@ -40,3 +40,6 @@ build/
 
 ### applicationContext.xml ###
 src/main/webapp/WEB-INF/applicationContext.xml
+
+### docker-compose.yml ###
+docker-compose.yml
