@@ -10,7 +10,7 @@ FROM tomcat:9.0
 
 # 웹 애플리케이션 WAR 파일을 Tomcat의 webapps 폴더에 복사
 # 복사할 WAR 파일 경로는 해당 파일 위치에 맞게 조정
-COPY ./target/CoupangSpring.war /usr/local/tomcat/webapps/
+COPY ./target/CoupangSpring.war /usr/local/tomcat/webapps/ROOT.war
 
 # Tomcat을 기본 포트(8080)에서 실행
 EXPOSE 8080
